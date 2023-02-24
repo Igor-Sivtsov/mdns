@@ -2,7 +2,7 @@
 1. Run quickstart.sh
 
 2. Edit avahi-daemon.conf
-    host-name=hostname
+    host-name=gitlab (name on the local network)
     enable-dbus=no
 
 3. Run docker-compose.yml
