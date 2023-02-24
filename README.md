@@ -7,4 +7,5 @@
 
 3. Run docker-compose.yml
 
-4. На машинах с windows необходимо установиить BonjourPSSetup.exe
+4. On windows machines, you need to install Bonjour
+   https://support.apple.com/kb/dl999?locale=ru_RU
