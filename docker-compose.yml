@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  avahi:
+    container_name: avahi
+    image: solidnerd/avahi:0.7
+    restart: always
+    network_mode: "host"
+    volumes:
+      - ./avahi:/etc/avahi:ro
