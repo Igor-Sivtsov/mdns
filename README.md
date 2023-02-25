@@ -1,8 +1,15 @@
+resource:
+https://hub.docker.com/r/solidnerd/avahi
 
-1. Run quickstart.sh
+1. Get initialize configuration:
+
+docker create --name avahi-config solidnerd/avahi:0.7
+docker cp avahi-config:/etc/avahi .
+docker rm avahi-config
+
 
 2. Edit avahi-daemon.conf
-    host-name=gitlab (name on the local network)
+    host-name="mydomain.local"
     enable-dbus=no
 
 3. Run docker-compose.yml
